@@ -22,6 +22,8 @@ Here are the installation instructions for participants of the OCL Lab.
 
 We recommend installing on a designated Python 3.8.0 environment.
 
+`pyenv` + `virtualenv` (Mac + Linux users)
+
 If you're using `pyenv` in combination with `virtualenv` as your Python environment manager, you can type the following in your terminal
 ```
 pyenv virtualenv 3.8.0 dof
@@ -29,7 +31,16 @@ pyenv local dof
 ```
 [Here](https://realpython.com/intro-to-pyenv/#virtual-environments-and-pyenv "pyenv and virtualenv") is a good source on `pyenv` and `virtualenv` by Logan Jones.
 
-If you are using conda ....
+`conda` (All users)
+
+Install Anaconda
+
+Go to Anaconda command prompt
+
+```
+conda create -n ocl python=3.8.0
+conda activate ocl
+```
 
 We'll be cloning from GitHub so make sure you have the git CLI installed ...
 
