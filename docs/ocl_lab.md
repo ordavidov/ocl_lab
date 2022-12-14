@@ -35,8 +35,6 @@ We'll be cloning from GitHub so make sure you have the git CLI installed ...
 
 ## `doframework` Installation
 
-We recommend installing `doframework` on a designated Python 3.8.0 environment. `doframework` has many dependancies that may override package versions in your current Python environment. 
-
 Now that you've set up a dedicated Python environment, simply install
 ```
 pip install doframework
@@ -49,12 +47,12 @@ python
 ```
 The import command may take a while. Once it's finished (successfully, hopefully) you can exit.
 
-## `doframework` Clonning
+## Clonning
 
 We will be running `doframework` Jupyter Notebooks as well as using other `doframework` material. Therefore, we'll clone a local copy of `doframework`. From your terminal, run
 
 ```
-git clone https://github.com/IBM/doframework.git
+git clone https://github.com/ordavidov/ocl_lab.git
 ```
 To launch the OCL lab Jupyter Notebooks, we'll need to add `jupyter` to our new Python environment
 ```
