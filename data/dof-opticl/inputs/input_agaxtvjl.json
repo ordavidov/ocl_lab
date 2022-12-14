@@ -1,0 +1,1 @@
+{"f": {"vertices": {"num": 12, "range": [[0.0, 100.0], [0.0, 100.0], [0.0, 100.0], [0.0, 100.0], [0.0, 100.0], [0.0, 100.0], [0.0, 100.0]]}, "values": {"range": [-50.0, 50.0]}}, "omega": {"ratio": 0.6, "scale": 0.05}, "data": {"N": 1000, "noise": 0.5, "policy_num": 9, "scale": 0.8}, "input_file_name": "input_agaxtvjl.json"}
