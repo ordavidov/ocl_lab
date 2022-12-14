@@ -60,7 +60,7 @@ pip install jupyter
 ```
 Note that `jupyter` does not come with `doframework`. We want to keep `doframework` light for cloud distribution. Once we're done installing `jupyter`, let's launch the OCL Lab notebooks
 ```
-cd doframework/notebooks
+cd notebooks
 jupyter notebook
 ```
 Now we can begin ...
