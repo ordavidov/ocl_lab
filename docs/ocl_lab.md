@@ -14,7 +14,7 @@
 # limitations under the License.
 -->
 
-# AAAI 2023 OCL Lab Instructions
+# OCL Lab Instructions
 
 Here are the installation instructions for participants of the OCL Lab.
 
