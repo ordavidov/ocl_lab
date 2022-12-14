@@ -44,9 +44,19 @@ conda activate ocl
 
 We'll be cloning from GitHub so make sure you have the git CLI installed ...
 
+## GLPK Installation
+
+....
+
+## Google Co-lab
+
+put in the links to google colab
+
 ## `doframework` Installation
 
-Now that you've set up a dedicated Python environment, simply install
+This is redundant if using Goole Colab
+
+Now that you've set up a dedicated Python environment, install
 ```
 pip install doframework
 ```
@@ -60,10 +70,14 @@ The import command may take a while. Once it's finished (successfully, hopefully
 
 ## `opticl` Installation
 
+This is redundant if using Goole Colab
+
 ```
 pip install opticl
 ```
 ## Clonning
+
+This is redundant if using Goole Colab.
 
 We will be running `doframework` Jupyter Notebooks as well as using other `doframework` material. Therefore, we'll clone a local copy of `doframework`. From your terminal, run
 
@@ -80,3 +94,8 @@ cd notebooks
 jupyter notebook
 ```
 Now we can begin ...
+
+## Issues
+
+Report issues in the repos issues sections
+
