@@ -47,6 +47,11 @@ python
 ```
 The import command may take a while. Once it's finished (successfully, hopefully) you can exit.
 
+## `opticl` Installation
+
+```
+pip install opticl
+```
 ## Clonning
 
 We will be running `doframework` Jupyter Notebooks as well as using other `doframework` material. Therefore, we'll clone a local copy of `doframework`. From your terminal, run
