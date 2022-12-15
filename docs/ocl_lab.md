@@ -50,7 +50,13 @@ We'll be cloning from GitHub so make sure you have the git CLI installed ...
 
 ## Google Co-lab
 
-put in the links to google colab
+put in the links to google colab.
+
+the link will only be good for a week after the lab.
+
+## Slack
+
+we'll have a slack channel for the OCL Lab which will be good up to 90 days after the lab
 
 ## `doframework` Installation
 
