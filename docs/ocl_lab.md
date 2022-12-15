@@ -52,7 +52,9 @@ We'll be cloning from GitHub so make sure you have the git CLI installed ...
 
 put in the links to google colab.
 
-the link will only be good for a week after the lab.
+the link will only be good for a week after the lab. you can copy into your drive.
+
+go to Google Drive, right click on the folder in question, and then click "Add shortcut to Drive". This will allow you to access the folder from your drive, in particular, it will allow notebooks to interact with data.
 
 ## Slack
 
