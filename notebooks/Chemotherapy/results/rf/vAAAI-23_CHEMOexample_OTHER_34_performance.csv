@@ -1,0 +1,2 @@
+save_path,seed,cv_folds,task,parameters,best_params,valid_score,train_score,train_r2,test_score,test_r2,auc_threshold,auc_train,auc_test,outcome,outcome_label,alg,bootstrap_iteration
+results/rf/vAAAI-23_CHEMOexample_OTHER_34_model.csv,1,5,continuous,"{'n_estimators': [10, 25], 'max_features': ['auto'], 'max_depth': [2, 3, 4]}","{'max_depth': 4, 'max_features': 'auto', 'n_estimators': 25}",-0.0007913058869127293,0.0002934536955324526,0.6379431195041054,0.001191224513923363,0.10014948810172564,0.1008105757875055,0.8721590909090909,0.6695906432748538,OTHER_34,OTHER_34,rf,0
