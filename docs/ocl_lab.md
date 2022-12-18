@@ -18,9 +18,53 @@
 
 Here are the installation instructions for participants of the OCL Lab.
 
-## Requirements
+## GLPK Installation
 
-We recommend installing on a designated Python 3.8.0 environment.
+Unless you already have one of the OptiCL supported solvers (e.g., [Gurobi](https://www.gurobi.com/), [CPLEX](https://www.ibm.com/products/ilog-cplex-optimization-studio/cplex-optimizer)), you will need to install one. We will demonstrate code on the open source solver [GLPK](https://www.gnu.org/software/glpk/).
+
+### Windows 
+
+To install [GLPK on a Windows machine](https://sourceforge.net/projects/winglpk/), follow the instructions below.
+
+1. Go to Control Panel to determine whether you have 32-bit or 64-bit Windows (assume 64-bit from now on).
+2. Download the latest version of GLPK (4.65 as of writing these instructions) from [this address](https://sourceforge.net/projects/winglpk/).
+3. Extract the Zip folder by right clicking on the folder and then >> 7-Zip >> Extract Here as shown.
+4. move the glpk-4.65 folder from your downloads folder to your C: drive.
+5. Assuming you’re on a 64-bit Windows, click on the `C:\glpk-4.65` folder in Windows explorer, click on the `w64` folder, and select and copy the file path, which should be `C:\glpk-4.65\w64`.
+6. Search and open your Control Panel, select System and Security >> System >> Advanced system settings >> Environment Variables. Then click on `path` in the top window, click the `Edit` button, then `New`.
+7. Paste the file path you copied above and save.
+
+### Mac
+
+To install GLPK on a Mac, follow the instructions below.
+
+If you're using [Homebrew](https://brew.sh/), open your Terminal and run
+```
+brew install glpk
+```
+Check your installation with
+```
+glpsol --help
+```
+If you're not using Homebrew ... maybe it's about time. Otherwise, follow the instructions [here](http://arnab-deka.com/posts/2010/02/installing-glpk-on-a-mac/).
+
+## Google Colab
+
+We offer participants of the [AAAI 2023 Lab **LSHP1: Optimization with Constraint Learning**](https://aaai.org/Conferences/AAAI-23/aaai23tutorials/) the opportunity to run our notebooks in Google Colab.
+
+Follow this[!!!] link. Once you log into Google Drive, right click on our `ocl_lab` folder, then click `Add shortcut to Drive`. This will allow you to access the folder from your drive. More critically, it will allow notebooks to interact with data.
+
+Note that it will be expire 30 days after the lab is over (March 8, 2023).
+
+## Slack
+
+we'll use a dedicated Slack workspace during our AAAI 2023 Lab LSHP1: Optimization with Constraint Learning. 
+
+Follow this[!!!] link to join our OCL Lab Slack workspace. This link will be good for up to 90 days following the AAAI 2023 OCL Lab.
+
+## Optional
+
+You can also run our notebooks the good-old-fashioned way. We recommend starting from a fresh Python 3.8.0 environment.
 
 `pyenv` + `virtualenv` (Mac + Linux users)
 
@@ -44,21 +88,6 @@ conda activate ocl
 
 We'll be cloning from GitHub so make sure you have the git CLI installed ...
 
-## GLPK Installation
-
-....
-
-## Google Co-lab
-
-put in the links to google colab.
-
-the link will only be good for a week after the lab. you can copy into your drive.
-
-go to Google Drive, right click on the folder in question, and then click "Add shortcut to Drive". This will allow you to access the folder from your drive, in particular, it will allow notebooks to interact with data.
-
-## Slack
-
-we'll have a slack channel for the OCL Lab which will be good up to 90 days after the lab
 
 ## `doframework` Installation
 
