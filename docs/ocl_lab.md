@@ -2,9 +2,33 @@
 
 Here are the installation instructions for participants of the OCL Lab.
 
-## GLPK
+## Google Colab
 
-Unless you already have one of the OptiCL supported solvers (e.g., [Gurobi](https://www.gurobi.com/), [CPLEX](https://www.ibm.com/products/ilog-cplex-optimization-studio/cplex-optimizer)), you will need to install one. We will demonstrate code on the open-source solver [GLPK](https://www.gnu.org/software/glpk/).
+We offer participants of the AAAI 2023 Lab [**Optimization with Constraint Learning**](https://aaai.org/Conferences/AAAI-23/aaai23tutorials/) the opportunity to run our notebooks in Google Colab.
+
+To access our notebooks on Google Colab, follow [this](https://drive.google.com/drive/folders/1J90aP5_3HuZJ1pEJWAjeeX4vrlNXSbbl?usp=share_link) link. 
+
+Once you log into your Google Drive, right click on our `ocl_lab` folder, then click `Add shortcut to Drive`. This will allow notebooks to interact with the data in Drive.
+
+This link will **expire** 30 days after the AAAI 2023 lab is over (March 8, 2023). You can still run our notebooks following the instructions below (under Optional).
+
+## Slack
+
+We'll use a Slack workspace during the AAAI 2023 OCL Lab as a space to answer questions, interact with participants, etc.
+
+Follow [this](https://join.slack.com/t/ocl-lab/shared_invite/zt-1m0d7h44w-EB_MmmS7j_5_Hfa1vkGPfA) link to join our OCL Lab Slack workspace. 
+
+This link will **expire** 30 days after the AAAI 2023 OCL Lab is over (March 8, 2023).
+
+## Optional
+
+You can also run our lab material the good-old-fashioned way.
+
+### + GLPK
+
+Unless you already have a solver installed (e.g., [Gurobi](https://www.gurobi.com/), [CPLEX](https://www.ibm.com/products/ilog-cplex-optimization-studio/cplex-optimizer)), you will need to install one. 
+
+We will demonstrate code on the open-source solver [GLPK](https://www.gnu.org/software/glpk/).
 
 #### Windows
 
@@ -18,7 +42,7 @@ To install [GLPK on a Windows machine](h#ttps://sourceforge.net/projects/winglpk
 6. Search and open your Control Panel, select System and Security >> System >> Advanced system settings >> Environment Variables. Then click on `path` in the top window, click the `Edit` button, then `New`.
 7. Paste the file path you copied above and save.
 
-### Mac
+#### Mac
 
 To install GLPK on a Mac, follow the instructions below.
 
@@ -31,28 +55,6 @@ Check your installation with
 glpsol --help
 ```
 If you're not using Homebrew ... maybe it's about time :-) Otherwise, follow the instructions [here](http://arnab-deka.com/posts/2010/02/installing-glpk-on-a-mac/).
-
-## Google Colab
-
-We offer participants of the AAAI 2023 Lab [**Optimization with Constraint Learning**](https://aaai.org/Conferences/AAAI-23/aaai23tutorials/) the opportunity to run our notebooks in Google Colab.
-
-To access our notebooks on Google Colab, follow [this](https://drive.google.com/drive/folders/1J90aP5_3HuZJ1pEJWAjeeX4vrlNXSbbl?usp=share_link) link. 
-
-Once you log into your Google Drive, right click on our `ocl_lab` folder, then click `Add shortcut to Drive`. This will allow notebooks to interact with the data in Drive.
-
-This link will **expire** 30 days after the AAAI 2023 lab is over (March 8, 2023). You can still run our notebooks following the instructions below (under Optional).
-
-## Slack
-
-we'll use a Slack workspace during our AAAI 2023 Lab Optimization with Constraint Learning. 
-
-Follow [this](https://join.slack.com/t/ocl-lab/shared_invite/zt-1m0d7h44w-EB_MmmS7j_5_Hfa1vkGPfA) link to join our OCL Lab Slack workspace. 
-
-This link will **expire** 30 days after the AAAI 2023 OCL Lab is over (March 8, 2023).
-
-## Optional
-
-You can also run our notebooks the good-old-fashioned way.
 
 ### + Environment
 
