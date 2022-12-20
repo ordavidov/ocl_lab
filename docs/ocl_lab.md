@@ -16,7 +16,9 @@
 
 # OCL Lab Instructions
 
-Here are the installation instructions for participants of the OCL Lab.
+Here are the installation instructions for participants of the AAAI 2023 OCL Lab.
+
+They apply more generally
 
 ## GLPK Installation
 
