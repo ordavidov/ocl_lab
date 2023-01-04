@@ -1,2 +1,2 @@
 save_path,seed,cv_folds,task,parameters,best_params,valid_score,train_score,train_r2,test_score,test_r2,auc_threshold,auc_train,auc_test,outcome,outcome_label,alg,bootstrap_iteration
-results/svm/vAAAI-23_WFPexample_palatability_model.csv,1,5,continuous,"{'C': [0.1, 1, 10, 100]}",{'C': 10},-0.019205284862976985,0.01894392295409651,0.6277642185327779,0.01910048138240098,0.6327809225830283,0.5,0.8990995963983854,0.9098790782569017,palatability,palatability,svm,0
+results/svm/vAAAI-23_WFPexample_palatability_model.csv,1,5,continuous,"{'C': [0.1, 1, 10, 100]}",{'C': 100},-0.019205027234123113,0.01893966147936938,0.6278479537432249,0.019135809229810594,0.6321017219245131,0.5,0.8989785959143837,0.909462796850671,palatability,palatability,svm,0
