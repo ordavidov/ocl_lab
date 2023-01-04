@@ -1,0 +1,9 @@
+local:
+  buckets: 
+    inputs: '../../data/dof-opticl/inputs'
+    inputs_dest: '../../data/dof-opticl/inputs-dest'
+    objectives: '../../data/dof-opticl/objectives'
+    objectives_dest: '../../data/dof-opticl/objectives-dest'
+    data: '../../data/dof-opticl/data'
+    data_dest: '../../data/dof-opticl/data-dest'
+    solutions: '../../data/dof-opticl/solutions'
