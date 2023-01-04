@@ -1,0 +1,21 @@
+{
+    "f": {
+        "vertices": {
+            "num": 20,
+            "range": [[0.0,10.0],[0.0,10.0],[0.0,10.0],[0.0,10.0],[0.0,10.0]]
+        },
+        "values": {
+            "range": [-10.0,10.0]
+        }
+    },
+    "omega": {
+        "ratio": 0.6
+    },
+    "data": {
+        "N": 1000,
+        "noise": 0.01,
+        "policy_num": 3,
+        "scale": 0.7
+    },
+    "input_file_name": "input_basic.json"
+}
