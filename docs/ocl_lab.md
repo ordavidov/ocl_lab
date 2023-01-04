@@ -62,8 +62,8 @@ We recommend working in a fresh Python 3.8.0 environment.
 
 Using `pyenv` in combination with `virtualenv` as your Python environment manager, type the following in your terminal
 ```
-pyenv virtualenv 3.8.0 dof
-pyenv local dof
+pyenv virtualenv 3.8.0 ocl
+pyenv local ocl
 ```
 
 [Here](https://realpython.com/intro-to-pyenv/#virtual-environments-and-pyenv "pyenv and virtualenv") is a good source on `pyenv` and `virtualenv` by Logan Jones.
@@ -85,6 +85,7 @@ conda activate ocl
 
 Now that you've set up a dedicated Python environment, install `opticl` and `doframework` 
 ```
+pip install --upgrade pip
 pip install opticl
 pip install doframework
 ```
@@ -96,6 +97,7 @@ Clone the `ocl_lab` repo to have your own local copy of the OCL Lab notebooks an
 From the command line, run
 ```
 git clone https://github.com/ordavidov/ocl_lab.git
+cd ocl_lab
 ```
 
 ### ++ DOFramework Setup
@@ -142,7 +144,7 @@ import os
 os.environ["JAVA_HOME"] = "/usr/lib/jvm/java-11-openjdk-amd64"
 ```
 
-Check your installation
+Check your installation from the command line
 ```
 java -version
 mvn -version
