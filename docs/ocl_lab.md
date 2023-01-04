@@ -24,7 +24,7 @@ This link will **expire** 30 days after the AAAI 2023 OCL Lab is over (March 8, 
 
 You can also run our lab material the good-old-fashioned way.
 
-### + GLPK
+### ++ GLPK
 
 Unless you already have a solver installed (e.g., [Gurobi](https://www.gurobi.com/), [CPLEX](https://www.ibm.com/products/ilog-cplex-optimization-studio/cplex-optimizer)), you will need to install one. 
 
@@ -46,7 +46,7 @@ To install [GLPK on a Windows machine](h#ttps://sourceforge.net/projects/winglpk
 
 To install GLPK on a Mac, follow the instructions below.
 
-If you're using [Homebrew](https://brew.sh/), open your Terminal and run
+We'll use [Homebrew](https://brew.sh/) to install stuff on a Mac. Open your Terminal and run
 ```
 brew install glpk
 ```
@@ -54,9 +54,9 @@ Check your installation with
 ```
 glpsol --help
 ```
-If you're not using Homebrew ... maybe it's about time :-) Otherwise, follow the instructions [here](http://arnab-deka.com/posts/2010/02/installing-glpk-on-a-mac/).
+If you don't wish to use Homebrew, follow the instructions [here](http://arnab-deka.com/posts/2010/02/installing-glpk-on-a-mac/).
 
-### + Environment
+### ++ Environment
 
 We recommend working in a fresh Python 3.8.0 environment.
 
@@ -83,7 +83,7 @@ conda create -n ocl python=3.8.0
 conda activate ocl
 ```
 
-### + Installation
+### ++ Installation
 
 Now that you've set up a dedicated Python environment, install `opticl` and `doframework` with
 ```
@@ -91,7 +91,7 @@ pip install opticl
 pip install doframework
 ```
 
-### + Clone
+### ++ Clone
 
 Clone the `ocl_lab` repo to have your own local copy of the OCL Lab notebooks and data. 
 
@@ -99,6 +99,58 @@ From your terminal, run
 ```
 git clone https://github.com/ordavidov/ocl_lab.git
 ```
+
+### ++ DOFramework Setup
+
+`doframework` relies on `rayvens` which relies on [`camel`](https://github.com/apache/camel-k/releases?page=3). Therefore, we need to get `camel` and make sure we have Java and [`maven`](https://maven.apache.org/) on our system. 
+
+#### --> Mac
+
+Use [Homebrew](https://brew.sh/) to install `camel` and `maven`.
+
+```
+brew install kamel
+brew install maven
+```
+
+You will need to have [JDK](https://www.oracle.com/java/technologies/downloads/) on your system. Follow the installation instructions [here](https://docs.oracle.com/en/java/javase/19/install/overview-jdk-installation.html#GUID-8677A77F-231A-40F7-98B9-1FD0B48C346A).
+
+#### --> Windows
+
+...
+
+#### --> Linux
+
+Download the `camel-k` client and un-tar.
+```
+wget https://github.com/apache/camel-k/releases/download/v1.5.1/camel-k-client-1.5.1-linux-64bit.tar.gz
+tar zxvf camel-k-client-1.5.1-linux-64bit.tar.gz
+```
+Copy the binary
+```
+cp ./kamel /usr/local/bin
+```
+
+Make sure you have [JDK](https://www.oracle.com/java/technologies/downloads/) and maven
+```
+apt update
+apt-get install -y openjdk-11-jdk-headless -qq
+apt-get install -y maven
+```
+
+Set up the Java environment variable (via Python)
+```
+import os
+os.environ["JAVA_HOME"] = "/usr/lib/jvm/java-11-openjdk-amd64"
+```
+
+Check installation
+```
+java -version
+mvn -version
+```
+
+### ++ Notebooks
 
 To launch the OCL Lab Jupyter Notebooks, you'll need to first add `jupyter` to our new Python environment
 ```
