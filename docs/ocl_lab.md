@@ -6,9 +6,7 @@ Here are the installation instructions for participants of the OCL Lab.
 
 We offer participants of the AAAI 2023 Lab [**Optimization with Constraint Learning**](https://aaai.org/Conferences/AAAI-23/aaai23tutorials/) the opportunity to run our notebooks in Google Colab.
 
-To access our notebooks on Google Colab, follow [this](https://drive.google.com/drive/folders/1J90aP5_3HuZJ1pEJWAjeeX4vrlNXSbbl?usp=share_link) link. 
-
-Once you log into your Google Drive, right click on our `ocl_lab` folder, then click `Add shortcut to Drive`. This will allow notebooks to interact with the data in Drive.
+To access our notebooks on Google Colab, follow [this](https://drive.google.com/drive/folders/1J90aP5_3HuZJ1pEJWAjeeX4vrlNXSbbl?usp=share_link) link. Sign in and then right click on the `ocl_lab` folder. Then choose `Add shortcut to Drive`. This will allow notebooks to interact with the data in Drive.
 
 This link will **expire** 30 days after the AAAI 2023 lab is over (March 8, 2023). You can still run our notebooks following the instructions below (under Optional).
 
@@ -22,7 +20,7 @@ This link will **expire** 30 days after the AAAI 2023 OCL Lab is over (March 8, 
 
 ## Advanced
 
-If you prefer, you can run our OCL Lab material on your local system..
+If you prefer, you can run our OCL Lab materials on your local system.
 
 ### ++ GLPK
 
@@ -60,10 +58,10 @@ We recommend working in a fresh Python 3.8.0 environment.
 
 #### --> Mac / Linux
 
-Using `pyenv` in combination with `virtualenv` as your Python environment manager, type the following in your terminal
+Using `pyenv` in combination with `virtualenv`, type the following in your terminal
 ```
-pyenv virtualenv 3.8.0 dof
-pyenv local dof
+pyenv virtualenv 3.8.0 ocl
+pyenv local ocl
 ```
 
 [Here](https://realpython.com/intro-to-pyenv/#virtual-environments-and-pyenv "pyenv and virtualenv") is a good source on `pyenv` and `virtualenv` by Logan Jones.
@@ -85,17 +83,17 @@ conda activate ocl
 
 Now that you've set up a dedicated Python environment, install `opticl` and `doframework` 
 ```
+pip install --upgrade pip
 pip install opticl
 pip install doframework
 ```
 
 ### ++ Clone
 
-Clone the `ocl_lab` repo to have your own local copy of the OCL Lab notebooks and data. 
-
-From the command line, run
+Clone the `ocl_lab` repo to have your own local copy of the OCL Lab notebooks and data. From the command line, run
 ```
 git clone https://github.com/ordavidov/ocl_lab.git
+cd ocl_lab
 ```
 
 ### ++ DOFramework Setup
@@ -112,6 +110,13 @@ brew install maven
 ```
 
 Now, you ALSO need to have [Java](https://www.oracle.com/java/technologies/downloads/) installed. If you don't, follow the instructions [here](https://docs.oracle.com/en/java/javase/19/install/overview-jdk-installation.html#GUID-8677A77F-231A-40F7-98B9-1FD0B48C346A).
+
+Check your installations with
+```
+java -version
+mvn -version
+kamel version
+```
 
 #### --> Windows
 
@@ -142,7 +147,7 @@ import os
 os.environ["JAVA_HOME"] = "/usr/lib/jvm/java-11-openjdk-amd64"
 ```
 
-Check your installation
+Check your installations with
 ```
 java -version
 mvn -version
@@ -160,9 +165,8 @@ Then
 cd notebooks
 jupyter notebook
 ```
-Your now ready to run our notebooks. Enjoy!
+You're now ready to run our notebooks. Enjoy!
 
 ## Issues
 
 Please report OptiCL issues [here](https://github.com/hwiberg/OptiCL/issues) and DOFramework issues [here](https://github.com/IBM/doframework). We greatly appreciate your help!
-
