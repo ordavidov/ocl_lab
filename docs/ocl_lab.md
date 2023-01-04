@@ -8,7 +8,9 @@ We offer participants of the AAAI 2023 Lab [**Optimization with Constraint Learn
 
 To access our notebooks on Google Colab, follow [this](https://drive.google.com/drive/folders/1J90aP5_3HuZJ1pEJWAjeeX4vrlNXSbbl?usp=share_link) link. Sign in and then right click on the `ocl_lab` folder. Then choose `Add shortcut to Drive`. This will allow notebooks to interact with the data in Drive.
 
-This link will **expire** 30 days after the AAAI 2023 lab is over (March 8, 2023). You can still run our notebooks following the instructions below (under Optional).
+Navigate to the `notebooks` folder where you will find four subfolders -- `WFP`, `Chemotherapy`, `POI`, `DOFramework` -- corresponding to each one of the hands-on sections of our OCL Lab. Go ahead and try them out!
+
+This link will **expire** 30 days after the AAAI 2023 lab is over (March 8, 2023). You can still run our notebooks following the instructions below (under Advanced).
 
 ## Slack
 
