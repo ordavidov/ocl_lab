@@ -1,9 +1,9 @@
 local:
   buckets: 
-    inputs: '/content/drive/MyDrive/ocl_lab/data/dof-simulation/inputs'
-    inputs_dest: '/content/drive/MyDrive/ocl_lab/data/dof-simulation/inputs-dest'
-    objectives: '/content/drive/MyDrive/ocl_lab/data/dof-simulation/objectives'
-    objectives_dest: '/content/drive/MyDrive/ocl_lab/data/dof-simulation/objectives-dest'
-    data: '/content/drive/MyDrive/ocl_lab/data/dof-simulation/data'
-    data_dest: '/content/drive/MyDrive/ocl_lab/data/dof-simulation/data-dest'
-    solutions: '/content/drive/MyDrive/ocl_lab/data/dof-simulation/solutions'
+    inputs: '../../data/dof-simulation/inputs'
+    inputs_dest: '../../data/dof-simulation/inputs-dest'
+    objectives: '../../data/dof-simulation/objectives'
+    objectives_dest: '../../data/dof-simulation/objectives-dest'
+    data: '../../data/dof-simulation/data'
+    data_dest: '../../data/dof-simulation/data-dest'
+    solutions: '../../data/dof-simulation/solutions'
