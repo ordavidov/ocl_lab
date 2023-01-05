@@ -1,6 +1,6 @@
 # Optimization with Constraint Learning (OCL) Lab 
 
-## Abstract
+## Overview
 
 Optimization with constraint learning (OCL) uniquely leverages machine learning (ML) to design optimization models in which constraints and objectives are directly learned from data, when an explicit expression is unknown. While OCL offers great advantages to design more accurate models, in a faster way, practitioners should also be aware of possible pitfalls and inaccuracies arising from embedding fitted models as optimization constraints. 
 
@@ -10,7 +10,7 @@ Divided into four parts, the OCL Lab offers theory as well as hands-on tutorials
 
 See our OCL Lab Installation Instructions [here](https://github.com/ordavidov/ocl_lab/blob/main/docs/ocl_lab.md).
 
-## Parts
+## Outline
 
 Part I: OCL Introduction (60 min) [[Slides](https://github.com/ordavidov/ocl_lab/blob/main/slides/AAAI23%20-%20Part%20I.pptx)]
 * Intro to mathematical optimization.
@@ -45,3 +45,22 @@ Part IV: DOFramework (50 min) [[Slides](https://github.com/ordavidov/ocl_lab/blo
 -- C. E. Rasmussen and C. K. I. Williams, [Gaussian Processes for Machine Learning](http://gaussianprocess.org/gpml/), 2006.
 * DOFramework <br>
 -- O. Davidovich, G.-T. Bercea, and S. Wasserkrug, [The Good, the Bad, and the Outliers: A Testing Framework for Decision Optimization Model Learning](https://dl.acm.org/doi/10.1145/3534678.3539094), 2022.
+
+## Speakers
+
+
+#### Ilker Birbil, University of Amsterdam
+
+Ilker Birbil is a professor at the University of Amsterdam, where he is the head of the Business Analytics Department. His research interests center around optimization methods in data science and decision making. Lately, he is working on interpretable machine learning and data privacy in operations research.
+
+
+#### Donato Maragno, University of Amersterdam
+
+Donato Maragno is a PhD candidate at the Department of Business Analytics, University of Amsterdam in the Netherlands. His research interest focuses on the investigation of different techniques to embed Machine Learning into optimization models. He is one of the developers of OptiCL, an open-source tool for optimization with constraint learning.
+
+
+#### Orit Davidovich, IBM Research Haifa Lab
+
+Orit Davidovich is an Applied Math Research Scientist at the IBM Research Haifa Lab, Israel. Orit is interested in problems that arise when decision support is subject to uncertainty, frequently stemming from available data. In addition, Orit likes tinkering with novel cloud compute frameworks.
+
+
