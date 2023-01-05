@@ -10,7 +10,7 @@ Divided into four parts, the OCL Lab offers theory as well as hands-on tutorials
 
 See our OCL Lab Installation Instructions [here](https://github.com/ordavidov/ocl_lab/blob/main/docs/ocl_lab.md).
 
-## Parts
+## Outline
 
 Part I: OCL Introduction (60 min) [[Slides](https://github.com/ordavidov/ocl_lab/blob/main/slides/AAAI23%20-%20Part%20I.pptx)]
 * Intro to mathematical optimization.
