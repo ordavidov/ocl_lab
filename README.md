@@ -1,6 +1,6 @@
 # Optimization with Constraint Learning (OCL) Lab 
 
-## Abstract
+## Overview
 
 Optimization with constraint learning (OCL) uniquely leverages machine learning (ML) to design optimization models in which constraints and objectives are directly learned from data, when an explicit expression is unknown. While OCL offers great advantages to design more accurate models, in a faster way, practitioners should also be aware of possible pitfalls and inaccuracies arising from embedding fitted models as optimization constraints. 
 
