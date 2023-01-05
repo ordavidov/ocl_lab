@@ -6,11 +6,20 @@ Here are the installation instructions for participants of the OCL Lab.
 
 We offer participants of the AAAI 2023 Lab [**Optimization with Constraint Learning**](https://aaai.org/Conferences/AAAI-23/aaai23tutorials/) the opportunity to run our notebooks in Google Colab.
 
-To access our notebooks on Google Colab, follow [this](https://drive.google.com/drive/folders/1J90aP5_3HuZJ1pEJWAjeeX4vrlNXSbbl?usp=share_link) link. Sign in and then right click on the `ocl_lab` folder. Then choose `Add shortcut to Drive`. This will allow notebooks to interact with the data in Drive.
+To run our notebooks on Google Colab:
+1. Follow [this](https://drive.google.com/drive/folders/1J90aP5_3HuZJ1pEJWAjeeX4vrlNXSbbl?usp=share_link) link.
+2. Sign into with Google account. You will be directed to your Google Drive.
+3. Right-click on the `ocl_lab` folder. Choose `Download` from the drop-down menu. This will download a zipped copy of `ocl_lab` into your local machine. 
+4. Unzip your downloaded copy of `ocl_lab`.
+5. Go back to your Google Drive and right-click on any open UI space. Pick `Folder upload` from the drop-down menu. Navigate to your local unzipped `ocl_lab` folder and upload. 
+6. Once uploaded, you will have a copy of `ocl_lab` in Google Drive owned by YOU. This will give you full permissions to run our interactive notebooks.
+7. Navigate to the `notebooks` sub-folder of YOUR copy of `ocl_lab`.
+8. The `notebooks` sub-folder includes: `WFP`, `Chemotherapy`, `POI`, and `DOFramework`. Look for the notebooks (the `.ipynb` files) under each. 
+9. To run a notebook, right-click on the `.ipynb` file and choose `Open with` from the drop-down menu. Choose `Google Colaboratory` to open it with. If you don't see `Google Colaboratory` in your list of options, click on `Connect more apps` and  install `Google Colaboratory` from the app menu. Now you will see `Google Colaboratory` appear under `Open with`.
 
-Navigate to the `notebooks` folder where you will find four subfolders -- `WFP`, `Chemotherapy`, `POI`, `DOFramework` -- corresponding to each one of the hands-on sections of our OCL Lab. Go ahead and try them out!
+NOTE: The Google Colab link will **expire** 30 days after the AAAI 2023 lab is over (March 8, 2023). You can still run our notebooks following the instructions below (under Advanced).
 
-This link will **expire** 30 days after the AAAI 2023 lab is over (March 8, 2023). You can still run our notebooks following the instructions below (under Advanced).
+NOTE: If you are getting `Read-only file system` errors while running our notebooks, it means you are not using YOUR owned copy of `ocl_lab`.
 
 ## Slack
 
