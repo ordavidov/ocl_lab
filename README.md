@@ -33,3 +33,15 @@ Part IV: DOFramework (50 min) [[Slides](https://github.com/ordavidov/ocl_lab/blo
 * DOFramework event-driven, cloud-distributed design.
 * A DOFramework experiment. [[Notebook I](https://github.com/ordavidov/ocl_lab/blob/main/notebooks/DOFramework/example.ipynb)]
 * Profiling a Decision-Optimization (DO) model learner. [[Notebook II](https://github.com/ordavidov/ocl_lab/blob/main/notebooks/DOFramework/profile.ipynb)]
+
+## References
+
+* Mathematical Optimization <br>
+-- H. P. Williams, [Model Building in Mathematical Programming](https://www.wiley.com/en-us/Model+Building+in+Mathematical+Programming%2C+5th+Edition-p-9781118443330), 2013.
+* Constraint Learning <br>
+-- A. Fajemisin, D. Maragno, and D. den Hertog, [Optimization with Constraint Learning: A Framework and Survey](https://arxiv.org/abs/2110.02121), 2021.<br>
+-- D. Maragno, H. Wiberg, D. Bertsimas, S. I. Birbil, D. den Hertog, and A. Fajemisin, [Mixed-Integer Optimization with Constraint Learning](https://arxiv.org/abs/2111.04469), 2021.
+* Gaussian Processes <br>
+-- C. E. Rasmussen and C. K. I. Williams, [Gaussian Processes for Machine Learning](http://gaussianprocess.org/gpml/), 2006.
+* DOFramework <br>
+-- O. Davidovich, G.-T. Bercea, and S. Wasserkrug, [The Good, the Bad, and the Outliers: A Testing Framework for Decision Optimization Model Learning](https://dl.acm.org/doi/10.1145/3534678.3539094), 2022.
