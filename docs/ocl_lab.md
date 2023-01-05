@@ -16,6 +16,7 @@ To run our notebooks on Google Colab:
 7. Navigate to the `notebooks` sub-folder of YOUR copy of `ocl_lab`.
 8. The `notebooks` sub-folder includes: `WFP`, `Chemotherapy`, `POI`, and `DOFramework`. Look for the notebooks (the `.ipynb` files) under each. 
 9. To run a notebook, right-click on the `.ipynb` file and choose `Open with` from the drop-down menu. Choose `Google Colaboratory` to open it with. If you don't see `Google Colaboratory` in your list of options, click on `Connect more apps` and  install `Google Colaboratory` from the app menu. Now you will see `Google Colaboratory` appear under `Open with`.
+10. Once you open a notebook in Google Colab, click on `Runtime` in the top bar and choose `Run all` from the drop-down menu. When prompted, click `Allow` to mount your Drive.
 
 NOTE: The Google Colab link will **expire** 30 days after the AAAI 2023 lab is over (March 8, 2023). You can still run our notebooks following the instructions below (under Advanced).
 
