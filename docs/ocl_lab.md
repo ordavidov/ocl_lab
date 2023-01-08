@@ -11,9 +11,9 @@ To run our notebooks on Google Colab:
 2. Sign into with Google account. You will be directed to your Google Drive.
 3. Right-click on the `ocl_lab` folder (see image below). Choose `Download` from the drop-down menu. This will download a zipped copy of `ocl_lab` into your local machine. 
 4. Unzip your downloaded copy of `ocl_lab`.
-5. Go back to your Google Drive and right-click on any open UI space. Pick `Folder upload` from the drop-down menu. Navigate to your local unzipped `ocl_lab` folder and upload. 
-6. Once uploaded, you will have a copy of `ocl_lab` in Google Drive owned by YOU. This will give you full permissions to run our interactive notebooks.
-7. Navigate to the `notebooks` sub-folder of YOUR copy of `ocl_lab`.
+5. Go back to your Google Drive `HOME` folder and right-click on any open UI space. Pick `Folder upload` from the drop-down menu. Navigate to your local unzipped `ocl_lab` folder and upload. Upload may take a while. Go ahead with the rest of the instructions while upload is in progress.
+6. You will now have a copy of `ocl_lab` in Google Drive owned by YOU. This will give you full permissions to run our interactive notebooks.
+7. Navigate to the `notebooks` sub-folder of YOUR copy of `ocl_lab`. You don't have to wait for upload to finish!
 8. The `notebooks` sub-folder includes: `WFP`, `Chemotherapy`, `POI`, and `DOFramework`. Look for the notebooks (the `.ipynb` files) under each. 
 9. To run a notebook, right-click on the `.ipynb` file and choose `Open with` from the drop-down menu. Choose `Google Colaboratory` to open it with. If you don't see `Google Colaboratory` in your list of options, click on `Connect more apps` and  install `Google Colaboratory` from the app menu. Now you will see `Google Colaboratory` appear under `Open with`.
 10. Once you open a notebook in Google Colab, click on `Runtime` in the top bar and choose `Run all` from the drop-down menu. When prompted, click `Allow` to mount your Drive.
