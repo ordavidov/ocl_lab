@@ -136,11 +136,11 @@ kamel version
 
 #### --> Windows
 
-From [JDK 11](https://www.oracle.com/java/technologies/javase/jdk11-archive-downloads.html) download [`jdk-11_windows-x64_bin.zip`](https://www.oracle.com/java/technologies/javase/jdk11-archive-downloads.html#license-lightbox) into `C:\Program Files`.
+From [JDK 11](https://www.oracle.com/java/technologies/javase/jdk11-archive-downloads.html) download [`jdk-11_windows-x64_bin.zip`](https://www.oracle.com/java/technologies/javase/jdk11-archive-downloads.html#license-lightbox) (at the very bottom) into `C:\Program Files`. You may need to create an Oracle Account to download (check your junk folder, if you cannot see the email from Oracle).
 
-Unzip the downloaded file. Open File Explorer and find the zipped folder. To unzip the entire folder, right-click to select Extract All, and then follow the instructions.
+Unzip the downloaded file into `C:\Program Files`.
 
-Set the `JAVA_HOME` system variable. Right click `My Computer` and select `Properties`. On the `Advanced` tab, select `Environment Variables`, and then edit `JAVA_HOME`, for example, to be `C:\Program Files\Java\??`.
+Set the `JAVA_HOME` system variable. Right click `My Computer` and select `Properties`. On the `Advanced` tab, select `Environment Variables`, and then edit `JAVA_HOME` to `C:\Program Files\jdk-11.0.16.1` (assuming this is the JDK version you downloaded). Now update the `Path` variable. Enter `%JAVA_HOME%\bin` in a new field.
 
 From [Apache Maven](https://maven.apache.org/download.cgi) download [`apache-maven-3.8.7-bin.zip`](https://dlcdn.apache.org/maven/maven-3/3.8.7/binaries/apache-maven-3.8.7-bin.zip) into `C:\Program Files`.
 
