@@ -144,9 +144,9 @@ Set the `JAVA_HOME` system variable. Right click `My Computer` and select `Prope
 
 From [Apache Maven](https://maven.apache.org/download.cgi) download [`apache-maven-3.8.7-bin.zip`](https://dlcdn.apache.org/maven/maven-3/3.8.7/binaries/apache-maven-3.8.7-bin.zip) into `C:\Program Files`.
 
-Unzip the downloaded file as above.
+Unzip the downloaded file into `C:\Program Files`.
 
-Add the `MAVEN_HOME` system variable. Right click `My Computer` and select `Properties`. On the `Advanced` tab, select `Environment Variables`, and then select `New`. Enter `MAVEN_HOME` as the variable name and the path to the Maven directory as the variable value. Click `OK` to save the new system variable.
+Add the `MAVEN_HOME` system variable. Right click `My Computer` and select `Properties`. On the `Advanced` tab, select `Environment Variables`, and then select `New`. Enter `MAVEN_HOME` as the variable name and the path to the Maven directory as the variable value. Click `OK` to save the new system variable. `C:\Program Files\apache-maven-3.8.7`.
 
 Add the `MAVEN_HOME` Directory in the `PATH` variable. Select the `Path` variable under the `System variables` section in the `Environment Variables` window. Click on the `Edit` button. Click the `New` button. Enter `%MAVEN_HOME%\bin` in the new field. Click `OK` to save changes to the `Path` variable.
 
@@ -154,9 +154,11 @@ Dowload the Camel-K Client version 1.5.1 [camel-k-client-1.5.1-windows-64bit.tar
 
 To Unzip this file, look for the `Command Prompt` and select the `Run as administrator` option. Navigate to `C:\Program Files` where `camel` was installed.
 ```
-tar -xvzf camel-k-client-1.5.1-windows-64bit.tar.gz
+cd "..\..\Program Files"
+mkdir camel
+tar -xvzf camel-k-client-1.5.1-windows-64bit.tar.gz -C `camel`
 ```
-Add the `kamel` binary file under the uncompressed `camel` folder to the `PATH` variable as above.
+Add the `kamel.exe` file  under the uncompressed  `camel` directory to the `PATH` variable as above.
 
 From the Command Prompt, check your installations with
 ```
