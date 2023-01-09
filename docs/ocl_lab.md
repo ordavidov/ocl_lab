@@ -136,7 +136,34 @@ kamel version
 
 #### --> Windows
 
-...
+From [JDK 11](https://www.oracle.com/java/technologies/javase/jdk11-archive-downloads.html) download [`jdk-11_windows-x64_bin.zip`](https://www.oracle.com/java/technologies/javase/jdk11-archive-downloads.html#license-lightbox) into `C:\Program Files`.
+
+Unzip the downloaded file. Open File Explorer and find the zipped folder. To unzip the entire folder, right-click to select Extract All, and then follow the instructions.
+
+Set the `JAVA_HOME` system variable. Right click `My Computer` and select `Properties`. On the `Advanced` tab, select `Environment Variables`, and then edit `JAVA_HOME`, for example, to be `C:\Program Files\Java\??`.
+
+From [Apache Maven](https://maven.apache.org/download.cgi) download [`apache-maven-3.8.7-bin.zip`](https://dlcdn.apache.org/maven/maven-3/3.8.7/binaries/apache-maven-3.8.7-bin.zip) into `C:\Program Files`.
+
+Unzip the downloaded file as above.
+
+Add the `MAVEN_HOME` system variable. Right click `My Computer` and select `Properties`. On the `Advanced` tab, select `Environment Variables`, and then select `New`. Enter `MAVEN_HOME` as the variable name and the path to the Maven directory as the variable value. Click `OK` to save the new system variable.
+
+Add the `MAVEN_HOME` Directory in the `PATH` variable. Select the `Path` variable under the `System variables` section in the `Environment Variables` window. Click on the `Edit` button. Click the `New` button. Enter `%MAVEN_HOME%\bin` in the new field. Click `OK` to save changes to the `Path` variable.
+
+Dowload the Camel-K Client version 1.5.1 [camel-k-client-1.5.1-windows-64bit.tar.gz](https://github.com/apache/camel-k/releases/download/v1.5.1/camel-k-client-1.5.1-windows-64bit.tar.gz) into `C:\Program Files`. 
+
+To Unzip this file, look for the `Command Prompt` and select the `Run as administrator` option. Navigate to `C:\Program Files` where `camel` was installed.
+```
+tar -xvzf camel-k-client-1.5.1-windows-64bit.tar.gz
+```
+Add the `kamel` binary file under the uncompressed `camel` folder to the `PATH` variable as above.
+
+From the Command Prompt, check your installations with
+```
+java -version
+mvn -version
+kamel version
+```
 
 #### --> Linux
 
