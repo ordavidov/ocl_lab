@@ -36,35 +36,44 @@ This link will **expire** 30 days after the AAAI 2023 OCL Lab is over (March 8, 
 
 ## Docker
 
-Optional: running OCL Lab in Docker.
+You have the option to run OCL Lab in [Docker](https://www.docker.com/). This will allow you to run our lab locally without the hastle of setting up your environment. If you haven't already, install the Docker Desktop [here](https://www.docker.com/get-started/).
 
-Clone the `ocl_lab` repo to have your own local copy of the OCL Lab notebooks and data. From the command line, run
+First, clone the `ocl_lab` repo. From the command line, run
 ```
 git clone https://github.com/ordavidov/ocl_lab.git
 cd ocl_lab
 ```
 
-Build and run the image
+Build the image
 ```
 docker build -t ocl .
-docker run -d --name ocl -it -p 8880:8880 -e JUPYTER_TOKEN="ocl" ocl
 ```
-In the jupyter UI enter the token `ocl`.
 
-Remove the image with
+Run the image
+```
+docker run --name ocl -d -e JUPYTER_TOKEN="ocl" -p 8880:8888 ocl
+```
+Check your running images. You should see `ocl` there.
+```
+docker ps -a
+```
+
+Go to your browser and enter `localhost:8880/`. In the Jupyter landng page, enter the token `ocl`. You will now see the four parts: `WFP`, `Chemotherapy`, `POI`, and `DOFramework`. Navigate into each to find our notebooks.
+
+Remove your container 
 ```
 docker rm -f ocl
-```
+``` 
 
 ## Advanced
 
-If you prefer, you can run our OCL Lab materials on your local system.
+If you prefer, you can set up your machine to run our OCL Lab materials locally.
 
 ### ++ GLPK
 
 Unless you already have a solver installed (e.g., [Gurobi](https://www.gurobi.com/), [CPLEX](https://www.ibm.com/products/ilog-cplex-optimization-studio/cplex-optimizer)), you will need to install one. 
 
-We will demonstrate code on the open-source solver [GLPK](https://www.gnu.org/software/glpk/).
+We use the open-source solver [GLPK](https://www.gnu.org/software/glpk/).
 
 #### --> Mac
 
@@ -158,7 +167,16 @@ kamel version
 
 #### --> Windows
 
-...
+You need to have [Apache Maven](https://maven.apache.org/) and the [Java SE Development Kit 11](https://www.oracle.com/java/technologies/javase/jdk11-archive-downloads.html) for Windows, downloaded and unzipped. Then make sure to add/edit system variables `JAVA_HOME` and `MAVEN_HOME`, so that they point at the unzipped folders. Add their binaries `%JAVA_HOME%\bin` and `%MAVEN_HOME%\bin` to your `PATH`.
+
+To install [`Camel K`](https://camel.apache.org/camel-k/1.11.x/), you will need to download and unzip [v1.5.1](https://github.com/apache/camel-k/releases/tag/v1.5.1). It contains a binary file named `kamel` that you should add to your system variable `PATH`.
+
+Finally, open the `Command Line Prompt` (as an administrator) and check your installations with
+```
+java -version
+mvn -version
+kamel version
+```
 
 #### --> Linux
 
