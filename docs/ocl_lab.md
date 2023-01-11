@@ -36,7 +36,7 @@ This link will **expire** 30 days after the AAAI 2023 OCL Lab is over (March 8, 
 
 ## Docker
 
-You have the option to run OCL Lab in [Docker](https://www.docker.com/). This will allow you to run our lab locally without the hastle of setting up your environment. If you haven't already, install the Docker Desktop [here](https://www.docker.com/get-started/).
+You have the option to run OCL Lab in [Docker](https://www.docker.com/). This will allow you to run our lab locally without the hastle of setting up your own environment. If you haven't already, install the Docker Desktop [here](https://www.docker.com/get-started/).
 
 First, clone the `ocl_lab` repo. From the command line, run
 ```
@@ -58,12 +58,18 @@ Check your running images. You should see `ocl` there.
 docker ps -a
 ```
 
-Go to your browser and enter `localhost:8880/`. In the Jupyter landng page, enter the token `ocl`. You will now see the four parts: `WFP`, `Chemotherapy`, `POI`, and `DOFramework`. Navigate into each to find our notebooks.
+Go to your browser and enter `localhost:8880/`. In the Jupyter landng page, enter the token `ocl`. You will now see our four lab parts: `WFP`, `Chemotherapy`, `POI`, and `DOFramework`. Navigate into each one to find our notebooks.
 
-Remove your container 
+Clean up by removing the `ocl` container 
 ```
 docker rm -f ocl
 ``` 
+
+If you see "WARNING: The object store is using /tmp instead of /dev/shm because /dev/shm has only ... bytes available" when running our notebooks, delete the `ocl` container, and use the run command (making sure you have enough memory)
+```
+docker run --name ocl -d -e JUPYTER_TOKEN="ocl" -p 8880:8888 --shm-size=10.23gb ocl
+```
+
 
 ## Advanced
 
