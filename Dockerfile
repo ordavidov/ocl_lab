@@ -60,11 +60,7 @@ RUN pip install \
 
 RUN pip install GPy==1.9.9
 
-# Get lab
-
-# RUN git clone https://github.com/ordavidov/ocl_lab.git /ocl_lab
-
 WORKDIR /ocl
-ADD notebooks notebooks
+ADD . .
 
 CMD jupyter notebook --no-browser --allow-root --ip 0.0.0.0 --port 8888 notebooks
