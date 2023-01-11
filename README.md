@@ -12,7 +12,7 @@ See our OCL Lab Installation Instructions [here](https://github.com/ordavidov/oc
 
 ## Outline
 
-Part I: OCL Introduction (60 min) [[Slides](https://github.com/ordavidov/ocl_lab/blob/main/slides/AAAI23%20-%20Part%20I.pptx)]
+Part I: OCL Introduction (60 min) [[Slides](https://github.com/ordavidov/ocl_lab/blob/main/slides/opticl_slides.pdf)]
 * Intro to mathematical optimization.
 * Intro to optimization with constraint learning.
 
