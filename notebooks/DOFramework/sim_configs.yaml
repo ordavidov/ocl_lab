@@ -4,6 +4,6 @@ local:
     data_dest: ../../data/dof-simulation/data-dest
     inputs: ../../data/dof-simulation/inputs
     inputs_dest: ../../data/dof-simulation/inputs-dest
-    objectives: ../../ocl_lab/data/dof-simulation/objectives
+    objectives: ../../data/dof-simulation/objectives
     objectives_dest: ../../data/dof-simulation/objectives-dest
     solutions: ../../data/dof-simulation/solutions
