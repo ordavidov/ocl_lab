@@ -1,9 +1,9 @@
 local:
   buckets:
-    data: /Users/oritd/Workspace/ocl_lab/data/dof-simulation/data
-    data_dest: /Users/oritd/Workspace/ocl_lab/data/dof-simulation/data-dest
-    inputs: /Users/oritd/Workspace/ocl_lab/data/dof-simulation/inputs
-    inputs_dest: /Users/oritd/Workspace/ocl_lab/data/dof-simulation/inputs-dest
-    objectives: /Users/oritd/Workspace/ocl_lab/data/dof-simulation/objectives
-    objectives_dest: /Users/oritd/Workspace/ocl_lab/data/dof-simulation/objectives-dest
-    solutions: /Users/oritd/Workspace/ocl_lab/data/dof-simulation/solutions
+    data: ../../data/dof-simulation/data
+    data_dest: ../../data/dof-simulation/data-dest
+    inputs: ../../data/dof-simulation/inputs
+    inputs_dest: ../../data/dof-simulation/inputs-dest
+    objectives: ../../ocl_lab/data/dof-simulation/objectives
+    objectives_dest: ../../data/dof-simulation/objectives-dest
+    solutions: ../../data/dof-simulation/solutions
