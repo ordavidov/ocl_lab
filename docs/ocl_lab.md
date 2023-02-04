@@ -8,7 +8,7 @@ We offer participants of the AAAI 2023 Lab [**Optimization with Constraint Learn
 
 To run our notebooks on Google Colab:
 1. Follow [this](https://drive.google.com/drive/folders/1J90aP5_3HuZJ1pEJWAjeeX4vrlNXSbbl?usp=share_link) link.
-2. Sign into with Google account. You will be directed to your Google Drive.
+2. Sign in with your Google account. You will be directed to your Google Drive.
 3. Right-click on the `ocl_lab` folder (see image below). Choose `Download` from the drop-down menu. This will download a zipped copy of `ocl_lab` into your local machine. 
 4. Unzip your downloaded copy of `ocl_lab`.
 5. Go back to your Google Drive `HOME` folder and right-click on any open UI space. Pick `Folder upload` from the drop-down menu. Navigate to your local unzipped `ocl_lab` folder and upload. Upload may take a while. Go ahead with the rest of the instructions while upload is in progress.
